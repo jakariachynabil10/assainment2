@@ -172,6 +172,7 @@ header{
    width: 50%;
    height: 100%;
    position: relative;
+   /* overflow: hidden; */
   
  }
 
@@ -187,6 +188,159 @@ header{
  .feature-two-part-image .btn-secondry{
     position: absolute;
     bottom: -80px;
-    right: 277px;
-
+    /* right: 277px; */
  }
+
+ /* fact-style */
+
+.container-title{
+    margin: 100px;
+}
+
+
+ .fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+ }
+
+ .fact-info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+ }
+
+ .facts-container{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .icon{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 23px 16px 18px 12px;
+    width: 177px;
+    height: 157px;
+ }
+ /* icon animation */
+ .icon:hover{
+    transform:rotate(360deg) ;
+    transition: transform 3s;
+    background-color: #FF900E;
+ }
+ /* number animation */
+
+ .number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+ }
+
+ .number:hover{
+    font-weight: 600;
+    font-size: 45px;
+    color: whitesmoke;
+ }
+
+ /* icon description animation */
+
+ .icon-descripton{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+ }
+
+ .icon-descripton:hover{
+    font-weight: 600;
+    font-size: 20px;
+    color: whitesmoke;
+ }
+
+ /* Extra section office address */
+
+ .offical-address{
+    text-align: left;
+    margin: 60px;
+    padding: 30px;
+    border: 2px solid whitesmoke;
+    background: cadetblue;
+    color: whitesmoke;
+    display: flex;
+    gap: 100px;
+ }
+.office-tilte{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 184px;
+}
+ 
+.office-details{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: 184px;
+}
+
+
+
+.icon-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.icons{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+/* sponsers */
+
+.sponsers{
+    margin: 100px;
+    text-align: center;
+}
+
+.sponsers-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsers-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.sponsers-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.image{
+    filter: grayscale(100%);
+}
+/* final-part */
+.final-part{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin: 100px;
+    border: 2px solid #FFF4E7;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 50px;
+}
